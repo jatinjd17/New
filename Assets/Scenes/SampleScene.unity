@@ -352,11 +352,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2983843667383143640, guid: 2de37d231cd155947bcae4cecaa0cf81, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.00000003417636
+      value: -0.00000003417636
       objectReference: {fileID: 0}
     - target: {fileID: 2983843667383143640, guid: 2de37d231cd155947bcae4cecaa0cf81, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000004026784
+      value: 0.000000004026784
       objectReference: {fileID: 0}
     - target: {fileID: 2983843667383143640, guid: 2de37d231cd155947bcae4cecaa0cf81, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -598,7 +598,15 @@ PrefabInstance:
       objectReference: {fileID: 342588881}
     - target: {fileID: 8845468529155236911, guid: 27efc1224481cfb43a34521cf3b11b23, type: 3}
       propertyPath: m_XAxis.m_MaxSpeed
-      value: 1000
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845468529155236911, guid: 27efc1224481cfb43a34521cf3b11b23, type: 3}
+      propertyPath: m_YAxis.m_MaxSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845468529155236911, guid: 27efc1224481cfb43a34521cf3b11b23, type: 3}
+      propertyPath: m_XAxis.m_AccelTime
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 8845468530137185945, guid: 27efc1224481cfb43a34521cf3b11b23, type: 3}
       propertyPath: m_LocalPosition.y
@@ -614,15 +622,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8845468530137185945, guid: 27efc1224481cfb43a34521cf3b11b23, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.1350594
+      value: 0.13505942
       objectReference: {fileID: 0}
     - target: {fileID: 8845468530137185945, guid: 27efc1224481cfb43a34521cf3b11b23, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00000001476463
+      value: 8.719026e-16
       objectReference: {fileID: 0}
     - target: {fileID: 8845468530137185945, guid: 27efc1224481cfb43a34521cf3b11b23, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000020125421
+      value: -1.7869098e-17
       objectReference: {fileID: 0}
     - target: {fileID: 8845468530243492919, guid: 27efc1224481cfb43a34521cf3b11b23, type: 3}
       propertyPath: m_LocalPosition.y
@@ -638,11 +646,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8845468530243492919, guid: 27efc1224481cfb43a34521cf3b11b23, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000008560945
+      value: 0.000000008560947
       objectReference: {fileID: 0}
     - target: {fileID: 8845468530243492919, guid: 27efc1224481cfb43a34521cf3b11b23, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 8.515279e-10
+      value: -8.5152807e-10
       objectReference: {fileID: 0}
     - target: {fileID: 8845468530729363385, guid: 27efc1224481cfb43a34521cf3b11b23, type: 3}
       propertyPath: m_LocalPosition.y
@@ -654,11 +662,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8845468530729363385, guid: 27efc1224481cfb43a34521cf3b11b23, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.00000001708818
+      value: -0.00000001708818
       objectReference: {fileID: 0}
     - target: {fileID: 8845468530729363385, guid: 27efc1224481cfb43a34521cf3b11b23, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000002013392
+      value: 0.000000002013392
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27efc1224481cfb43a34521cf3b11b23, type: 3}
@@ -710,12 +718,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -858,8 +866,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 69.1, y: 60.85}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 157.6, y: 127.4}
+  m_SizeDelta: {x: 243.5, y: 242.7}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1943914714
 MonoBehaviour:
@@ -948,8 +956,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 204.9, y: 0}
-  m_SizeDelta: {x: 490.3, y: 396.5}
+  m_AnchoredPosition: {x: 480.02, y: 0}
+  m_SizeDelta: {x: 960.03546, y: 1080}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &2146423164
 MonoBehaviour:
@@ -964,7 +972,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_MovementRange: 50
-  m_ControlPath: <Touchscreen>/primaryTouch/radius
+  m_ControlPath: <Pen>/delta
 --- !u!114 &2146423165
 MonoBehaviour:
   m_ObjectHideFlags: 0
